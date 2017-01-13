@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C39B91191DF816EB00D20599 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C39B91181DF816EB00D20599 /* libmp3lame.a */; };
+		C39696721E28C6BF0079399F /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C39696711E28C6BF0079399F /* libmp3lame.a */; };
 		C3A380211DF546FC00524B37 /* AudioWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A380201DF546FC00524B37 /* AudioWrapper.m */; };
 		C3C76A391DEEAC8600BA6B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C76A381DEEAC8600BA6B6D /* AppDelegate.swift */; };
 		C3C76A3B1DEEAC8600BA6B6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C76A3A1DEEAC8600BA6B6D /* ViewController.swift */; };
@@ -15,12 +15,16 @@
 		C3C76A401DEEAC8600BA6B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C76A3F1DEEAC8600BA6B6D /* Assets.xcassets */; };
 		C3C76A431DEEAC8600BA6B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C76A411DEEAC8600BA6B6D /* LaunchScreen.storyboard */; };
 		C3D6C7471DFAB445008EB130 /* output.caf in Resources */ = {isa = PBXBuildFile; fileRef = C3D6C7461DFAB445008EB130 /* output.caf */; };
+		C3EAFD7B1E28B86E002F88CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EAFD7A1E28B86E002F88CB /* AVFoundation.framework */; };
+		C3EAFD7D1E28B87C002F88CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EAFD7C1E28B87C002F88CB /* UIKit.framework */; };
+		C3EAFD7F1E28B888002F88CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EAFD7E1E28B888002F88CB /* Foundation.framework */; };
+		C3EAFD811E28B898002F88CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EAFD801E28B898002F88CB /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C364FF921DF16D2200D82A9D /* SGRecorder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SGRecorder-Bridging-Header.h"; sourceTree = "<group>"; };
-		C39B91171DF816EB00D20599 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
-		C39B91181DF816EB00D20599 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		C39696701E28C6BF0079399F /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		C39696711E28C6BF0079399F /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
 		C3A3801F1DF546FC00524B37 /* AudioWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioWrapper.h; sourceTree = "<group>"; };
 		C3A380201DF546FC00524B37 /* AudioWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioWrapper.m; sourceTree = "<group>"; };
 		C3C76A351DEEAC8600BA6B6D /* SGRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +35,10 @@
 		C3C76A421DEEAC8600BA6B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3C76A441DEEAC8600BA6B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3D6C7461DFAB445008EB130 /* output.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = output.caf; sourceTree = "<group>"; };
+		C3EAFD7A1E28B86E002F88CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C3EAFD7C1E28B87C002F88CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3EAFD7E1E28B888002F88CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3EAFD801E28B898002F88CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +46,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C39B91191DF816EB00D20599 /* libmp3lame.a in Frameworks */,
+				C39696721E28C6BF0079399F /* libmp3lame.a in Frameworks */,
+				C3EAFD811E28B898002F88CB /* CoreGraphics.framework in Frameworks */,
+				C3EAFD7F1E28B888002F88CB /* Foundation.framework in Frameworks */,
+				C3EAFD7D1E28B87C002F88CB /* UIKit.framework in Frameworks */,
+				C3EAFD7B1E28B86E002F88CB /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +62,7 @@
 			children = (
 				C3C76A371DEEAC8600BA6B6D /* SGRecorder */,
 				C3C76A361DEEAC8600BA6B6D /* Products */,
+				C3EAFD791E28B86E002F88CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,9 +77,9 @@
 		C3C76A371DEEAC8600BA6B6D /* SGRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				C39696701E28C6BF0079399F /* lame.h */,
+				C39696711E28C6BF0079399F /* libmp3lame.a */,
 				C3D6C7461DFAB445008EB130 /* output.caf */,
-				C39B91171DF816EB00D20599 /* lame.h */,
-				C39B91181DF816EB00D20599 /* libmp3lame.a */,
 				C3C76A381DEEAC8600BA6B6D /* AppDelegate.swift */,
 				C3C76A3A1DEEAC8600BA6B6D /* ViewController.swift */,
 				C3A3801F1DF546FC00524B37 /* AudioWrapper.h */,
@@ -78,6 +91,17 @@
 				C364FF921DF16D2200D82A9D /* SGRecorder-Bridging-Header.h */,
 			);
 			path = SGRecorder;
+			sourceTree = "<group>";
+		};
+		C3EAFD791E28B86E002F88CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3EAFD801E28B898002F88CB /* CoreGraphics.framework */,
+				C3EAFD7E1E28B888002F88CB /* Foundation.framework */,
+				C3EAFD7C1E28B87C002F88CB /* UIKit.framework */,
+				C3EAFD7A1E28B86E002F88CB /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,7 +131,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = SG;
 				TargetAttributes = {
 					C3C76A341DEEAC8600BA6B6D = {
@@ -201,6 +225,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -230,6 +255,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -251,6 +277,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -269,10 +296,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -289,15 +318,16 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SGRecorder",
+					"$(PROJECT_DIR)/SGRecorder/lame\\ 4",
 				);
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = SG.SGRecorder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SGRecorder/SGRecorder-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -314,6 +344,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SGRecorder",
+					"$(PROJECT_DIR)/SGRecorder/lame\\ 4",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = SG.SGRecorder;
@@ -321,7 +352,7 @@
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SGRecorder/SGRecorder-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};

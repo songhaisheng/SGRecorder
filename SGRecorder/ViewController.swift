@@ -182,16 +182,17 @@ class ViewController: UIViewController {
     
     func toMP3() {
         let audioWrapper: AudioWrapper = AudioWrapper()
-        if let _ = Bundle.main.path(forResource: "output", ofType: "caf") {
-            let localCafPath: String = Bundle.main.path(forResource: "output", ofType: "caf")! // 本地的caf文件
-            audioWrapper.convertSourcem4a(localCafPath, outPutFilePath: mp3Path) { (a:String?) in
-                print("end \(a)");
-            }
-//            audioWrapper.convertSourcem4a(cafPath, outPutFilePath: mp3Path) { (a:String?) in
+        // 本地的.caf文件转换为MP3
+//        if let _ = Bundle.main.path(forResource: "output", ofType: "caf") {
+//            let localCafPath: String = Bundle.main.path(forResource: "output", ofType: "caf")! // 本地的caf文件
+//            audioWrapper.convertSourcem4a(localCafPath, outPutFilePath: mp3Path) { (a:String?) in
 //                print("end \(a)");
 //            }
+//        }
+        // 录音.caf文件转换为MP3
+        audioWrapper.convertSourcem4a(cafPath, outPutFilePath: mp3Path) { (a:String?) in
+            print("end \(a)");
         }
-        
         print(cafPath!)
         print(mp3Path!)
         print("toMp3")
